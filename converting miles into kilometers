@@ -1,0 +1,9 @@
+# Read the distance in miles (take an integer)
+miles = float(input("miles: "))
+if miles > 0:
+    # Convert the distance from miles to kilometers
+    kilometers = miles * 1.609
+    # Print the distance in kilometers
+    print("kilometers:", kilometers)
+else:
+    print("not positive value")
